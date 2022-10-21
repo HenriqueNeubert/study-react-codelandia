@@ -1,4 +1,5 @@
 import React from 'react';
+import InputSearch from '../Search'
 
 export default function Header (props)
 {
@@ -8,6 +9,12 @@ export default function Header (props)
           <div className='d-flex justify-content-between align-items-center'>
             <h2 className='title'> { props.tituloPagina } </h2>
             <h1 className='subTitle'>{ props.subTituloPagina }</h1>
+          </div>
+          <div className='mt-70'>
+            <InputSearch
+              placeholder="Pesquisar no blog"
+              width="w-100">              
+            </InputSearch>   
           </div>
         </div>
       </header>

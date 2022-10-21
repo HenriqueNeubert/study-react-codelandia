@@ -4,6 +4,9 @@ body{
 
 *{
   color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .title{
@@ -40,4 +43,27 @@ body{
 .py-40{
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.mt-70{
+  margin-top: 70px;
+}
+
+.w-100{
+  width: 100%;
+}
+
+#inputSearch input::placeholder{
+  color: #fff;
+  font-size: 18px;
+  line-height: 65px;
+}
+
+#inputSearch input{
+  height: 65px;
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
 }
